@@ -5,13 +5,7 @@
 }
 .container{
     padding: 10px;
-    top:0;
-    left:0;
     display: block;
-    height: 100%;
-    width:100%;
-    margin: 0;
-    /* border:10px solid red; */
 }
 body{
     background-color: #9e9e9e;

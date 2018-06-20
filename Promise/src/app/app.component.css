@@ -1,5 +1,4 @@
 
-
 #search-container{
     display: block;
     /* background-color: #f2f2f2; */
@@ -11,16 +10,14 @@
     border: none;
     height: 36px;
     line-height: 36px;
-    width: 100%;
-    left:auto;
-    right:auto;
+    width: calc(100% - 3rem);
     font-size: 16px;
     margin: 0 0 8px 0;
     padding: 10px;
     box-shadow: none;
     line-height: 1.15;
     cursor: text;
-    text-indent: 30px;
+    /* text-indent: 30px; */
     padding-right: 30px;
     position: relative;
     margin: auto;
@@ -30,8 +27,8 @@
 
 #search-container .fa-search { 
     position: absolute;
-    top: 20px;
-    left: 24px;
+    top: 19px;
+    right: 80px;
     /* font-size: 20px; */
     cursor: hand;
     padding: 9px;
@@ -59,14 +56,14 @@ button{
 }
 .list-group-item{
     position: relative;
-    margin-top: .5rem;
+    /* margin: .5rem 0 1rem 0; */
     background-color: #fff;
     display: flex;
     border: 1px solid #999;
     padding: 0px;
     width: calc(100% - 3em);
     border-radius: 2px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2); */
     color: rgba(0,0,0,0.87);
     line-height: 1.6;
     font-size: 16px;
@@ -82,7 +79,7 @@ button{
     right: 0;
     top: 0;
     bottom: 0;
-    height:100px;
+    height:200px;
 }
 .list-group-item a {
     flex: 1;
