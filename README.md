@@ -9,13 +9,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 To deploy the same on a web-serve, copy the content under the dist folder to you webserver root directory.
 
-Apache: http folder
-IIS: www folder
+`Apache: http folder`
+`IIS: www folder`
 
-if you want to use a subfolder then, ensure to modify the <base href="/"> in index.html file.
+if you want to use a subfolder then, ensure to modify the `<base href="/">` in `index.html` file.
 
 for example: 
-<base href="/subfolder/">
+`<base href="/subfolder/">`
 
 
 ## Development server
