@@ -7,7 +7,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Deployment
 
-To deploy the same on a web-serve, copy the content under the dist folder to you webserver root directory.
+After the build, to deploy the same on a web-serve, copy the content under the `/dist/itunes/` folder to you webserver root directory.
+You may also download the deployable version from the release folder.
 
 `Apache: http folder`
 `IIS: www folder`
